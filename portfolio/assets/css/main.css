@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: url("../../images/michiganImg.jpg");
+		background-image: url("../../images/darkLake.jpg");
 		background-size: 100%,
  cover;
 		background-attachment: fixed,
@@ -2662,6 +2662,7 @@ input, select, textarea {
 	ul.contact {
 		list-style: none;
 		padding: 0;
+		font-weight: bolder;
 	}
 
 		ul.contact li {
@@ -3397,6 +3398,7 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			color: yellow;
 		}
 
 			#banner .logo .icon {
@@ -3433,7 +3435,9 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
-			color: black;
+			color: yellow;
+			text-shadow: 4px 4px 8px black;
+
 		}
 
 		#banner p {
@@ -3460,6 +3464,7 @@ input, select, textarea {
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			color: yellow;
 		}
 
 		@media screen and (max-width: 1280px) {
